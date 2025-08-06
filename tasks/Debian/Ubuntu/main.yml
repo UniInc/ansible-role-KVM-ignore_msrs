@@ -1,5 +1,4 @@
 ---
-
 - name: modules ignore_msrs
   ansible.builtin.lineinfile:
     path: /etc/initramfs-tools/modules
